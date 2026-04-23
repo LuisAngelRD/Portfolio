@@ -2,12 +2,19 @@
 import HeroSection from './components/HeroSection.vue'
 import TimelineSection from './components/TimelineSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
+import PapersSection from './components/PapersSection.vue'
 import TechSection from './components/TechSection.vue'
 import ContactSection from './components/ContactSection.vue'
+import LangToggle from './components/LangToggle.vue'
+import { useI18n } from './composables/useI18n'
+
+const { t } = useI18n()
 </script>
 
 <template>
   <div class="app-wrapper">
+    <LangToggle />
+
     <!-- Ambient background glow -->
     <div class="bg-glow bg-glow--top"></div>
     <div class="bg-glow bg-glow--mid"></div>
@@ -15,11 +22,12 @@ import ContactSection from './components/ContactSection.vue'
     <HeroSection />
     <TimelineSection />
     <ProjectsSection />
+    <PapersSection />
     <TechSection />
     <ContactSection />
 
     <footer class="footer">
-      <p>&copy; 2026 Luis &Aacute;ngel Rueda D&iacute;az. Todos los derechos reservados.</p>
+      <p>&copy; 2026 Luis &Aacute;ngel Rueda D&iacute;az</p>
     </footer>
   </div>
 </template>
@@ -28,6 +36,7 @@ import ContactSection from './components/ContactSection.vue'
 .app-wrapper {
   position: relative;
   min-height: 100vh;
+  padding-top: 56px;
 }
 
 .bg-glow {
