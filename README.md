@@ -8,11 +8,11 @@ Personal portfolio website built with **Vue 3**, **TypeScript** and **Vite**.
 
 | Section | Description |
 |---|---|
-| 🧭 **Trayectoria** | My academic and professional journey, from university to IEEE conference speaker |
-| 💻 **Proyectos** | Selected projects: IMSS database, SINAPTEA, Dat-IA and more |
-| 📄 **Papers** | Published research — IEEE ENC 2025 |
-| 🛠️ **Tecnologías** | Tools and languages I work with daily |
-| 📬 **Contacto** | Ways to reach me |
+|  **Trayectoria** | My academic and professional journey, from university to IEEE conference speaker |
+|  **Proyectos** | Selected projects: IMSS database, SINAPTEA, Dat-IA and more |
+|  **Papers** | Published research — IEEE ENC 2025 |
+|  **Tecnologías** | Tools and languages I work with daily |
+|  **Contacto** | Ways to reach me |
 
 ## Stack
 
